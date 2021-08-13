@@ -1,7 +1,7 @@
 const BLOG = {
   title: 'and I love you',
   author: '日向',
-  email: 'admin@hibana.top',
+  email: 'ben@hibana.top',
   link: 'https://hibana.vercel.app',
   description: 'Thoughts, stories and ideas.',
   lang: 'zh-CN', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
@@ -12,7 +12,7 @@ const BLOG = {
   path: '', // leave this empty unless you want to deploy Nobelium in a folder
   since: 2011, // If leave this empty, current year will be used.
   postsPerPage: 15,
-  sortByDate: true,
+  sortByDate: false,
   showAbout: true,
   showArchive: true,
   autoCollapsedNavBar: true, // The automatically collapsed navigation bar
