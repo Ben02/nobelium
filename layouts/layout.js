@@ -4,7 +4,7 @@ import { NotionRenderer, Equation, Code, CollectionRow } from 'react-notion-x'
 import BLOG from '@/blog.config'
 import formatDate from '@/lib/formatDate'
 import { useLocale } from '@/lib/locale'
-import { useRouter } from 'next/router'
+// import { useRouter } from 'next/router'
 import Comments from '@/components/Comments'
 
 const mapPageUrl = id => {
@@ -19,7 +19,7 @@ const Layout = ({
   fullWidth = false
 }) => {
   const locale = useLocale()
-  const router = useRouter()
+  // const router = useRouter()
   return (
     <Container
       layout="blog"
