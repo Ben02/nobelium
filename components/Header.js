@@ -33,7 +33,7 @@ const NavBar = () => {
 }
 
 const Header = ({ navBarTitle, fullWidth }) => {
-  const useSticky = !BLOG.autoCollapsedNavBar
+  const useSticky = BLOG.autoCollapsedNavBar
   const navRef = useRef(null)
   const sentinalRef = useRef([])
   const handler = ([entry]) => {
