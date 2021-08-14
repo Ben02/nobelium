@@ -30,7 +30,7 @@ const Layout = ({
       fullWidth={fullWidth}
     >
       <article>
-        <h1 className="font-bold text-4xl text-black dark:text-white">
+        <h1 className="font-bold text-5xl text-black dark:text-white">
           {frontMatter.title}
         </h1>
         {frontMatter.type[0] !== 'Page' && (
@@ -71,7 +71,7 @@ const Layout = ({
           </div>
         )}
       </article>
-      <div className="flex mt-24 justify-between font-medium text-gray-500 dark:text-gray-400">
+      <div className="flex mt-20 justify-between font-medium text-gray-500 dark:text-gray-400">
         <a>
           <button
             onClick={() => router.push(BLOG.path || '/')}

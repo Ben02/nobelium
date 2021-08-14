@@ -44,6 +44,8 @@ svg + .notion-page-title-text {
 
 .notion-code > code {
   @apply text-gray-900;
+  font-size: 1.25rem!important;
+  line-height: 2.1rem!important;
 }
 
 pre[class*='language-'] {
