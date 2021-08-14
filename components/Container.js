@@ -72,7 +72,7 @@ const Container = ({ children, layout, fullWidth, ...customMeta }) => {
           fullWidth={fullWidth}
         />
         <main
-          className={`m-auto flex-grow-0 w-full transition-all ${
+          className={`m-auto mt-2 mb-0 w-full transition-all ${
             !fullWidth ? 'max-w-2xl px-4' : 'px-4 md:px-24'
           }`}
         >
