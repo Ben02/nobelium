@@ -37,6 +37,20 @@ class MyDocument extends Document {
             <>
               <link
                 rel="preload"
+                href="/fonts/SourceSerif.var.woff2"
+                as="font"
+                type="font/woff2"
+                crossOrigin="anonymous"
+              />
+              <link
+                rel="preload"
+                href="/fonts/SourceSerif-Italic.var.woff2"
+                as="font"
+                type="font/woff2"
+                crossOrigin="anonymous"
+              />
+              <link
+                rel="preload"
                 href="/fonts/IBMPlexSansVar-Roman.woff2"
                 as="font"
                 type="font/woff2"
@@ -65,28 +79,25 @@ class MyDocument extends Document {
                 rel="preload"
                 as="style"
                 href={`https://fonts.googleapis.com/css2?family=Noto+${
-                  BLOG.font === 'serif' ? 'Serif' : 'Sans'
+                  BLOG.font === 'serif' ? 'Serif' : 'Serif'
                 }+${CJK()}:wght@400;500;700&display=swap`}
               />
               <link
                 rel="stylesheet"
                 href={`https://fonts.googleapis.com/css2?family=Noto+${
-                  BLOG.font === 'serif' ? 'Serif' : 'Sans'
+                  BLOG.font === 'serif' ? 'Serif' : 'Serif'
                 }+${CJK()}:wght@400;500;700&display=swap`}
               />
               <noscript>
                 <link
                   rel="stylesheet"
                   href={`https://fonts.googleapis.com/css2?family=Noto+${
-                    BLOG.font === 'serif' ? 'Serif' : 'Sans'
+                    BLOG.font === 'serif' ? 'Serif' : 'Serif'
                   }+${CJK()}:wght@400;500;700&display=swap`}
                 />
               </noscript>
             </>
           )}
-          <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
-          <link rel="icon" href="/favicon.ico" />
-          <link rel="apple-touch-icon" sizes="192x192" href="/apple-touch-icon.png"></link>
           <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="/feed"></link>
           {BLOG.appearance === 'auto'
             ? (

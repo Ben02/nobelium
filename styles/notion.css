@@ -2,7 +2,6 @@
 
 .notion {
   @apply text-gray-600 dark:text-gray-300;
-  @apply font-serif text-xl !important;
   overflow-wrap: break-word;
 }
 .notion,
@@ -12,6 +11,7 @@
   @apply leading-8;
   @apply p-0;
   @apply my-3;
+  @apply font-serif text-xl !important;
 }
 .notion-page-link {
   color: inherit;
