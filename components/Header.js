@@ -103,9 +103,8 @@ const Header = ({ navBarTitle, fullWidth }) => {
           </Link>
               )
             : (
-            <p className="text-xl ml-2 font-medium header-name">
-              {BLOG.title},{' '}
-              <span className="font-normal">{BLOG.description}</span>
+            <p className="text-2xl font-medium header-name">
+              {BLOG.title},
             </p>
               )}
         </div>
