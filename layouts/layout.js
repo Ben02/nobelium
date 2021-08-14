@@ -1,4 +1,3 @@
-import Image from 'next/image'
 import Container from '@/components/Container'
 import TagItem from '@/components/TagItem'
 import { NotionRenderer, Equation, Code, CollectionRow } from 'react-notion-x'
@@ -72,7 +71,7 @@ const Layout = ({
           </div>
         )}
       </article>
-      <div className="flex justify-between font-medium text-gray-500 dark:text-gray-400">
+      <div className="flex mt-24 justify-between font-medium text-gray-500 dark:text-gray-400">
         <a>
           <button
             onClick={() => router.push(BLOG.path || '/')}
