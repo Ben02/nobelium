@@ -103,7 +103,7 @@ const Header = ({ navBarTitle, fullWidth }) => {
           </Link>
               )
             : (
-            <p className="text-6xl font-bold header-name">
+            <p className="text-6xl font-bold header-name" style="line-height:1.1">
               {BLOG.title},
             </p>
               )}
