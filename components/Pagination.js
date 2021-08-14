@@ -6,7 +6,7 @@ const Pagination = ({ page, showNext }) => {
   const locale = useLocale()
   const currentPage = +page
   return (
-    <div className="flex mt-4 justify-between font-medium text-black dark:text-gray-100">
+    <div className="flex mt-24 justify-between font-medium text-black dark:text-gray-100">
       <Link
         href={
           currentPage - 1 === 1
