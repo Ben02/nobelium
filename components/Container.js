@@ -68,11 +68,12 @@ const Container = ({ children, layout, fullWidth, ...customMeta }) => {
         }`}
       >
         <Header
+          navBarTitle={layout === 'blog' ? '⬛' : null}
           fullWidth={fullWidth}
         />
         <main
           className={`m-auto mt-2 mb-0 w-full transition-all ${
-            !fullWidth ? 'max-w-2xl px-4' : 'px-4 md:px-24'
+            !fullWidth ? 'max-w-3xl px-4' : 'px-4 md:px-24'
           }`}
         >
           {children}
