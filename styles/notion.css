@@ -2,6 +2,7 @@
 
 .notion {
   @apply text-gray-600 dark:text-gray-300;
+  @apply font-serif text-xl !important;
   overflow-wrap: break-word;
 }
 .notion,
