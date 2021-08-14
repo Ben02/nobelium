@@ -44,8 +44,6 @@ svg + .notion-page-title-text {
 
 .notion-code > code {
   @apply text-gray-900;
-  font-size: 1.25rem!important;
-  line-height: 2.1rem!important;
 }
 
 pre[class*='language-'] {
@@ -73,4 +71,8 @@ pre[class*='language-'] {
 }
 .notion-collection-row {
   @apply hidden;
+}
+
+.notion-list li {
+  padding: 0!important;
 }

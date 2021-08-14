@@ -1,5 +1,5 @@
 const BLOG = {
-  title: 'and I love you',
+  title: '群青日和',
   author: '日向',
   email: 'ben@hibana.top',
   link: 'https://hibana.vercel.app',

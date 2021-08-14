@@ -34,7 +34,7 @@ const Layout = ({
           {frontMatter.title}
         </h1>
         {frontMatter.type[0] !== 'Page' && (
-          <nav className="flex mt-7 items-start text-gray-500 dark:text-gray-400">
+          <nav className="flex mt-2.5 mb-11 items-start text-gray-500 dark:text-gray-400">
             <div className="flex mb-4">
               <a href={BLOG.socialLink || '#'} className="flex">
                 <p className="md:block">{BLOG.author}</p>
@@ -71,7 +71,7 @@ const Layout = ({
           </div>
         )}
       </article>
-      <div className="flex mt-20 justify-between font-medium text-gray-500 dark:text-gray-400">
+      <div className="flex mt-24 justify-between font-medium text-gray-500 dark:text-gray-400">
         <a>
           <button
             onClick={() => router.push(BLOG.path || '/')}
