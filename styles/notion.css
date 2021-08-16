@@ -63,6 +63,7 @@ code[class*='language-'] {
 .notion-asset-caption {
   @apply text-center;
   @apply text-base;
+  @apply text-gray-400 dark:text-gray-500;
 }
 .notion-full-width {
   @apply px-0;
