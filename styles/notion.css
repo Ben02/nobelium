@@ -11,6 +11,10 @@
   @apply leading-8;
   @apply p-0;
   @apply my-3;
+}
+.notion,
+.notion-text,
+.notion-quote{
   @apply font-serif !important;
   font-size: 1.25rem!important;
   line-height: 2.1rem!important;
@@ -46,7 +50,7 @@ svg + .notion-page-title-text {
   @apply text-gray-900;
 }
 
-pre[class*='language-'] {
+code[class*='language-'] {
   line-height: inherit;
 }
 
