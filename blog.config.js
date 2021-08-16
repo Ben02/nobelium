@@ -1,5 +1,5 @@
 const BLOG = {
-  title: '群青日和',
+  title: '故事',
   author: '日向',
   email: 'ben@hibana.top',
   link: 'https://hibana.vercel.app',
@@ -19,7 +19,7 @@ const BLOG = {
   ogImageGenerateURL: 'https://og-image-craigary.vercel.app', // The link to generate OG image, don't end with a slash
   socialLink: 'https://twitter.com/R3ofT0k1GyjvXBf',
   seo: {
-    keywords: ['Blog', 'Website', 'Notion'],
+    keywords: ['博客', '个人', '日记'],
     googleSiteVerification: '' // Remove the value or replace it with your own google site verification code
   },
   notionPageId: process.env.NOTION_PAGE_ID, // DO NOT CHANGE THIS！！！
