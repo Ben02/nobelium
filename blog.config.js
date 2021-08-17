@@ -2,7 +2,7 @@ const BLOG = {
   title: '故事',
   author: '日向',
   email: 'ben@hibana.top',
-  link: 'https://hibana.top',
+  link: 'https://story.st',
   description: 'Thoughts, stories and ideas.',
   lang: 'zh-CN', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
   appearance: 'auto', // ['light', 'dark', 'auto'],
